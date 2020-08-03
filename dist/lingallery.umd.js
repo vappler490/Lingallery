@@ -7640,7 +7640,7 @@ var hammer_default = /*#__PURE__*/__webpack_require__.n(hammer);
       return 'border-color:' + color;
     },
     sendId: function sendId() {// This throws an uncomprehensible error so I commented it out for now
-      // this.$emit('update:iid', this.currentId)
+       this.$emit('update:iid', this.currentId)
     },
     showNextImage: function showNextImage() {
       // Show Loader
